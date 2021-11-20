@@ -11,6 +11,4 @@ const tarefasRotas = require('./rotas/tarefas')
 app.use(express.json())
 app.use('/tarefas', tarefasRotas)
 
-app.listen(3000, () => {
-  console.log('Iniciando o ExpressJS na porta 3000')
-})
+app.listen(7000)
